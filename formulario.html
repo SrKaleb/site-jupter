@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+    <style>
+        /* #one {
+            margin-bottom: 15px;;
+        } */
+        input{
+            margin-bottom: 25px;
+        }
+        body { 
+
+            display: block;
+            margin-right: auto; 
+            margin-left: 550px;
+        }
+    </style>
+    <script>
+function mostrar_resultado() {document.getElementById(resultado),innerHTML = document.getElementById(idade).value}
+
+    </script>
+</head>
+<body>
+<h2>CADASTRO</h2>
+<form action="jupter.html" method="post">
+
+    <label for="nome">Nome Completo</label><br>
+    <input type="text" name="nome" id="nome" size="30" maxlength="70" placeholder="Insira seu nome"><br>
+
+    <label for="telefone">Telefone</label> <br>
+    <input type="tel" name="telefone" id="telefone" size="30" maxlength="17" placeholder="insira seu numero de telefone"><br>
+
+    <label for="email">E-mail</label><br>
+    <input type="email" name="email" id="email" size="30" maxlength="50" placeholder="insira seu E-mail"> <br>
+
+    <label for="idade">Idade</label><br>
+    <input type="number" name="idade" id="idade" min="18" max="30" value="..." maxlength="2"> <br>
+
+    <label for="aniversario">aniversario</label><br>
+    <input type="date" name="aniverasrio" id="aniversario" size="30"><br>
+
+    <label for="naturalidade">Naturalidade</label><br>
+    <input type="text" name="Naturalidade" id="naturalidade" size="30" maxlength="15" placeholder="cidade que você nasceu"><br>
+
+
+    <input type="submit" value="Enviar" name="enviar" id="enviar"><br> 
+   
+      <input type="range" id="idade" min="18" max="70" value="1" onchange="mostrar_resultado">
+      <span id="resultado"> </span>
+</form>
+</body>
+</html>
