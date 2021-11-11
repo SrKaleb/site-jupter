@@ -1,20 +1,24 @@
 h1{
  font-family:Arial, Helvetica,; 
  font-size: 50px;
-color:black;}
+color:rgb(255, 255, 255);margin-left: 450px;}
 
-
-body{
-    background-size: cover;
-    background:turquoise;
+h2{
+    font-family: Arial, Helvetica,;
+    font-size: 20px;
+    color: cornsilk; margin-left: 380px;
 }
 
+h4 {color: rgb(255, 255, 255); 
+margin-left: 300px;}
 
-.container {
-
-    background-image: url(/nebulosa.jpg);
-    margin: 50px 50px 60px 60px;
-    
+body { background-image: url(../img/estrelas.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center center;
 
 }
-/* background-image: url( /C:\Users\RKM\Desktop\cursokaleb/nebulosa.jpg ); */
+p{
+    color: aliceblue;
+    margin-left: 300px; 
+    margin-right: 300px; }
