@@ -1,0 +1,20 @@
+h1{
+ font-family:Arial, Helvetica,; 
+ font-size: 50px;
+color:black;}
+
+
+body{
+    background-size: cover;
+    background:turquoise;
+}
+
+
+.container {
+
+    background-image: url(/nebulosa.jpg);
+    margin: 50px 50px 60px 60px;
+    
+
+}
+/* background-image: url( /C:\Users\RKM\Desktop\cursokaleb/nebulosa.jpg ); */
