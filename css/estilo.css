@@ -1,106 +1,132 @@
-h1{
- font-family:Arial, Helvetica,; 
- font-size: 50px;
-color:rgb(255, 255, 255);margin-left: 450px;}
-
-h2{
-    font-family: Arial, Helvetica,;
-    font-size: 20px;
-    color: cornsilk; margin-left: 380px;
+h1 {
+    font-family: Arial, Helvetica, ;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    margin-left: 450px;
 }
 
-h4 {color: rgb(255, 255, 255); 
-margin-left: 300px;}
+h2 {
+    font-family: Arial, Helvetica, ;
+    font-size: 20px;
+    color: cornsilk;
+    margin-left: 380px;
+}
 
-body { background-image: url(../img/estrelas.jpg);
+h4 {
+    color: rgb(255, 255, 255);
+    margin-left: 300px;
+}
+
+body {
+    background-image: url(../img/estrelas.jpg);
     background-repeat: repeat;
     background-attachment: fixed;
     background-position: center center;
 
 }
-p{
+
+p {
     color: rgb(255, 255, 255);
-    margin-left: 300px; 
-    margin-right: 300px; }
-
-    h3{
-        color: aliceblue;
-        margin-left: 200px;
-    }
-
-
-    h5 {color: rgb(255, 255, 255); font-size: 50px;
     margin-left: 300px;
-margin-right: 300px;}
-
-.orbita { margin-left: 350px;
-
+    margin-right: 300px;
 }
 
-.navegar{
+h3 {
+    color: aliceblue;
+    margin-left: 200px;
+}
+
+
+h5 {
     color: rgb(255, 255, 255);
-    
+    font-size: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+
+
+.navegar {
+    color: rgb(255, 255, 255);
+
 }
 
 
 
 /* navegaçao dos botoes das redes sociais */
 
-section{
+section {
     margin: 50px auto;
     width: center;
-    height:100px;
+    height: 100px;
 }
 
 
-.rede{ width: 50px;
-    height:50px;
+.rede {
+    width: 50px;
+    height: 50px;
     float: left;
     margin-left: 20px;
-    transition: all 0.4; 
+    transition: all 0.4;
     border-radius: 70%;
 }
 
-.rede:hover{
+.rede:hover {
     cursor: pointer;
-    transform: translateY(-20px);
+    transform: translateY(-4px);
     opacity: 0.8;
-    box-shadow: 0.4; 
+    box-shadow: 0.4;
 }
 
 .rede#facebook {
-   background-color: #ffffff;
+    background-color: rgba(128, 128, 128, 0);
 }
 
-.rede#instagram{
-    background-color: #ffffff;
+.rede#facebook:hover {
+    background: -moz-linear-gradient(45deg, #70abd3 0%, #81aadf 25%, #3d7ad4 50%, #3086cc 75%, #197ed1 100%); 
+    background: -webkit-linear-gradient(45deg, #70abd3 0%,#81aadf 25%,#3d7ad4 50%,#3086cc 75%,#197ed1 100%); 
+    background: linear-gradient(45deg, #70abd3 0%,#81aadf 25%,#3d7ad4 50%,#3086cc 75%,#197ed1 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#70abd3', endColorstr='#197ed1',GradientType=1 );
 }
 
+.rede#instagram {
+    background: #ffffff00; 
 
-.rede#twitter{
-    background-color: #ffffff;
 }
 
-.icone{
+.rede#instagram:hover {
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+
+}
+
+.rede#twitter {
+    background-color: #ffffff00;
+}
+
+.rede#twitter:hover {
+    background-color: rgb(0, 162, 255);
+}
+
+.icone {
     margin: 0px auto;
-    padding: 1px;
-    width:50px ;
+    padding: -1px;
+    width: 50px;
     height: 50px;
 }
 
 /* menu de navegação */
-#menu-a{
+#menu-a {
     list-style-type: none;
     padding: 0;
     background-color: #ffffff;
-    color: black; width:100%;
-    }
+    color: black;
+    width: 100%;
+}
 
-    #menu-a li{
-        display: inline;
-    
-    }
+#menu-a li {
+    display: inline;
 
-    
- 
-
+}
